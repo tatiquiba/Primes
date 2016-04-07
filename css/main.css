@@ -1,34 +1,54 @@
 *{
 	font-family: Arial;
 }
-
-header {
-	height: 700px;
-	background-image: url(../img/background/hero.jpg);
-	color: white;
+a {
+	text-decoration: none;
 }
 
+/*header*/
+header {
+	height: 740px;
+	background-image: url(../img/background/hero.jpg);
+	color:white;
+}
+
+header::before{
+height: 700px;
+|background-color: rgba(0, 0, 0, 0.37);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
 
 .col-2 h4{
 
-	padding: 40px;
+	top:20px;
+	position: absolute;
 
 }
-/*menú header*/
+
+ul{
+	padding-top:30px;
+	text-align: center;
+	height:100px;
+	margin-left: 200px;
+}
 
 .col-10{
-	padding: 40px;
 	text-align: center;
+	height:100px;
 }
 
 .col-10 li{
-
 	list-style: none;
 	color: white;
 	display: inline;
 	margin-top: 40px;
 	padding: 30px;
 	text-align: right;
+	top:20px;
 }
 
 .col-10 span{
@@ -36,16 +56,13 @@ header {
 }
 
 .col-12{
-
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 15%;
-	color:orange;
-
+	color:white;
 }
 
 .botones{
-
 	height:100px;
 	width:600px;
 	margin: 0 auto;
@@ -61,9 +78,7 @@ header {
 	height:70px;
 	display:inline;
 	padding:15px;
-
 }
-
 
 .bot2{
 	color:white;
@@ -74,8 +89,47 @@ header {
 	display:inline;
 	padding:15px;
 	margin-left: 20px;
-
 }
+
+/*Esto es del menu de Lorem Ipsum.*/
+
+.Lorem-Ipsum {
+	color: #0dc0c0;
+	font-size: 40px;
+	position: relative;
+	left: 45%
+}
+
+.Lista {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+}
+
+.Lorem {
+	text-align: center;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	color: #888;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+/*Esto es del menu de Lorem Ipsum.*/
+
+/*more features*/
+.mfeatures i{
+	color: #0dc0c0;
+	font-size: 40px;
+	left: 40px;
+	position: relative;
+}
+
+.mfeatures p{
+	color: #888;
+}
+/*features*/
 /*tatiana*/
 
 .portafolio{
@@ -109,7 +163,8 @@ header {
 
 nav{
 	margin-top: 25%;
-	margin-left: 30%;
+	margin-left: -20%;
+	position: relative;
 }
 
 .fotos{
@@ -136,32 +191,45 @@ nav{
 	margin-left: 100px;
 }
 
-/*Esto es del menu de Lorem Ipsum. Tatiana*/
-
-.Lorem-Ipsum {
-	color: #0dc0c0;
-	font-size: 40px;
+.fotos p, h6 {
 	position: relative;
-	left: 45%
+	top: -30px
 }
 
-.Lista {
+/*boton portfolio*/
+.bot3{
+	background-color: #696969;
+	color:white;
+	width: 150px;
+	height: 50px;
+	margin-left: 510px;
+}
+
+.bot3 p{
+	
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
+	margin:0 auto;
+	color: white;
+	padding-top: 10%;
+
+}
+/*portafolio*/
+/*city*/
+
+.city{
+	background-image: url(../img/background/city.jpg);
+	height: 600px;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	font-size: 25px;
 }
 
-.Lorem {
-	text-align: center;
-	padding-right: 40px;
-	padding-left: 40px;
-	padding-top: 20px;
-	padding-bottom: 30px;
-	color: #888;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+.city .col-12 div {
+	width: 250px;
+	height: 70px;
+	opacity: 0.1;
+	left: 450px;
+	position: relative;
+	background-color: white;
 }
 
-
-
-/*Esto es del menu de Lorem Ipsum. Tatiana*/
